@@ -1,0 +1,35 @@
+# # Environment files
+# .env
+
+# llm-env
+
+# # Python cache files
+# __pycache__/
+# *.py[cod]
+# *$py.class
+
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# --- Environments / secrets ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+.env.*
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+
